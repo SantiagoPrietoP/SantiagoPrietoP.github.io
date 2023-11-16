@@ -1,0 +1,66 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenedor_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.Boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5cf04f;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.Boton:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+.Boton:active {
+    background-color: #216a94;
+}
+
+.tabla {
+    background-color: white;
+    width: 80%;
+    margin: 50px;
+}
+
+.Boton_3 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5cf04f;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.Boton_3:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+.Boton_3:active {
+    background-color: #216a94;
+}

@@ -1,0 +1,111 @@
+        body {
+            position: relative;
+            background-color: aliceblue;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+        }
+        
+        form {
+            padding: 50px 55px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+            text-align: center;
+            width: 340px;
+            margin-bottom: 90px;
+        }
+        
+        .input_grupo {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+        
+        h2 {
+            color: black;
+            font-size: 35px;
+        }
+        
+        label {
+            color: black;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        input,
+        textarea {
+            padding: 17px 25px;
+            border-radius: 25px;
+            margin-bottom: 20px;
+            background-color: white;
+            border: 2px solid white;
+            color: black;
+            outline: none;
+        }
+        
+        input::placeholder,
+        textarea::placeholder {
+            color: rgb(148, 220, 148);
+        }
+        
+        .form-txt {
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+        
+        .btn {
+            font-size: 20px;
+            color: white;
+            border: 0;
+            border-radius: 25px;
+            background-color: #5cf04f;
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+        
+        .btn_1 {
+            font-size: 20px;
+            color: white;
+            border: 0;
+            border-radius: 25px;
+            background-color: rgb(201, 30, 30);
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+        
+        .btn:hover,
+        .btn_1:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+        
+        .btn:active,
+        .btn_1:active {
+            background-color: #216a94;
+        }
+        
+        .Ok {
+            text-align: center;
+            width: 50%;
+            padding: 12px;
+            background-color: rgb(15, 191, 15);
+            color: white;
+            border-radius: 30px;
+        }
+        
+        .Bad {
+            text-align: center;
+            width: 50%;
+            padding: 12px;
+            background-color: rgb(193, 35, 32);
+            color: white;
+            border-radius: 30px;
+            margin: 30px;
+            position: absolute;
+            bottom: 0;
+        }
